@@ -8,7 +8,7 @@ This project was created to present my skills, real-world projects and professio
 
 # Live Demo
 
-Coming soon with GitHub Pages deployment.
+https://nicolaualfredo.github.io/frontend-portfolio/
 
 ---
 
@@ -50,6 +50,7 @@ nicolau-frontend-portfolio/
     ├── js/
     │   └── script.js
     └── images/
+        └── icons/
         └── projects/
 ```
 
@@ -98,13 +99,13 @@ This portfolio was designed to:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/nicolau-frontend-portfolio.git
+https://github.com/NicolauAlfredo/frontend-portfolio.git
 ```
 
 Open the project folder:
 
 ```bash
-cd nicolau-frontend-portfolio
+cd frontend-portfolio
 ```
 
 Run locally:
