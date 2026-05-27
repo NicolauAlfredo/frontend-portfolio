@@ -339,6 +339,7 @@ a {
   display: grid;
 }
 
+/* Respnsive */
 @media (max-width: 767px) {
   .section-padding {
     padding: 4rem 0;
