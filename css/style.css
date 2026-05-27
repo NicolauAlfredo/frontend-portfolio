@@ -30,3 +30,23 @@ body {
 a {
   text-decoration: none;
 }
+
+/* NavBar */
+.navbar {
+  min-height: 72px;
+}
+
+.navbar-brand {
+  letter-spacing: -0.03em;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--color-dark);
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-primary);
+}
