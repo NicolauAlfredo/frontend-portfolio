@@ -50,3 +50,85 @@ a {
 .nav-link:focus {
   color: var(--color-primary);
 }
+
+/* Hero Section */
+.hero-section {
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(13, 110, 253, 0.12),
+      transparent 34%
+    ),
+    linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.eyebrow {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.hero-card,
+.skill-card,
+.project-card,
+.cta-box,
+.contact-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-white);
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-card {
+  padding: 2rem;
+}
+
+.hero-card__icon {
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background: rgba(13, 110, 253, 0.1);
+  color: var(--color-primary);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.tech-stack span,
+.project-tags span {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: #e5e7eb;
+  color: var(--color-primary-dark);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.tech-stack span {
+  padding: 0.55rem 0.85rem;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hero-links a {
+  color: var(--color-dark);
+  font-weight: 700;
+}
+
+.hero-links a:hover {
+  color: var(--color-primary);
+}
