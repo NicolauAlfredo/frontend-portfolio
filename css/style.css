@@ -132,3 +132,22 @@ a {
 .hero-links a:hover {
   color: var(--color-primary);
 }
+
+/* Profile */
+
+.section-padding {
+  padding: 6rem 0;
+}
+
+.section-tile {
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.section-subtitle,
+.section-text {
+  max-width: 720px;
+  color: var(--color-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
