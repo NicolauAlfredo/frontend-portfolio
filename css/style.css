@@ -151,3 +151,35 @@ a {
   font-size: 1.05rem;
   line-height: 1.8;
 }
+
+/* Competenze */
+
+.skill-card {
+  padding: 2rem;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+}
+
+.skill-card i {
+  display: inline-flex;
+  margin-bottom: 1.3rem;
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.skill-card h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+
+.skill-card p {
+  color: var(--color-muted);
+  line-height: 1.7;
+  margin-bottom: 0;
+}
